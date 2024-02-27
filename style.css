@@ -5,7 +5,6 @@ body{
     font-family: serif;
     transition: all 0.5s ease;
     background-color: whitesmoke;
-
 }
 .home{
     background-image: url(bg.jpg);
@@ -136,16 +135,14 @@ body{
     margin: 25px;
     width: 25%;
     text-align: center;
-    background-color: #7949ffdd;
+    background-color: #7949ffff;
     border-radius: 10px;
     color: antiquewhite;
     transition: all 0.5s ease-in-out;
     padding: 20px;
 }
 .degree:hover{
-    background-color: #7949ffff;
-    box-shadow: -1px 5px 10px 1px grey;
-    transform: translateY(-5px);
+    box-shadow: 2px 2px 10px 1px grey;
     color: white;
 }
 .degree button{
@@ -153,12 +150,12 @@ body{
     border-radius: 15px;
     border: none;
     letter-spacing: 0.1mm;
+    background-color: #5416ff;
     color: antiquewhite;
-    background-color: #7949ffff;
     transition: all 0.3s ease;
 }
 .degree button:hover{ 
-    background-color: #7949ffff;
+    background-color: #4400ff;
     color: white;
     transform: translateY(-2px);
     box-shadow: 0px 3px 0px 0px grey;
