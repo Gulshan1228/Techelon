@@ -1,0 +1,493 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: serif;
+    transition: all 0.5s ease;
+    background-color: antiquewhite;
+}
+.home{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.navbar a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.name{
+    font-family: cursive;
+    text-align: center;
+    margin: 0;
+}
+.university{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 75px;
+}
+.rightnav{
+    font-size: 22px;
+}
+.rightnav a{
+    text-decoration: none;
+    color: antiquewhite;
+    transition: all 1s ease-in-out;
+} 
+.navbar li{
+    list-style: none;
+    float: left;
+    padding-left: 30px;
+}
+.rightnav a:hover{
+    text-decoration: underline;
+    color:white;
+}
+.leftnav p{
+    margin-top: -15px;
+    margin-left: 50px;
+    color: white;
+}
+#menu-icon,#menu{
+    display: none;
+}
+
+
+.content{
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-family:  'Times New Roman', Times, serif;
+    width: 75%;
+}
+.content h1{
+    font-family: 'Franklin Gothic Medium';
+
+    font-size: 60px;
+}
+.content span{
+    font-size: 90px;
+    color: skyblue;
+    font-family:  'Times New Roman', Times, serif;
+}
+.content p{
+    font-size: 16px;
+}
+
+.content a{
+    padding: 10px 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+.morebtn{
+    margin: 0 auto;
+    width: 120px;
+    transition: all 0.5s ease;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: antiquewhite;
+    transition: all 0.2s ease-in;
+    letter-spacing: 0.2mm;
+}
+.morebtn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0px 3px 1px 1px grey;
+}
+.morebtn:active{
+    transform: translateY(-0px);
+    box-shadow: 0px 0px 0px 0px grey;
+}
+
+.ourcourses{
+    text-align: center;
+    padding-top: 75px;
+}
+.ourcourses span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* course Section  css */
+.courses{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 150px;
+}
+.courses p{
+    padding: 10px;
+}
+.degree{
+    margin: 25px;
+    width: 25%;
+    text-align: center;
+    background-color: #7949ffdd;
+    border-radius: 10px;
+    color: antiquewhite;
+    transition: all 0.5s ease-in-out;
+    padding: 20px;
+}
+.degree:hover{
+    background-color: #7949ffff;
+    box-shadow: -1px 5px 10px 1px grey;
+    transform: translateY(-5px);
+    color: white;
+}
+.degree button{
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: none;
+    letter-spacing: 0.1mm;
+    color: antiquewhite;
+    background-color: #7949ffff;
+    transition: all 0.3s ease;
+}
+.degree button:hover{ 
+    background-color: #7949ffff;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0px 3px 0px 0px grey;
+    border-radius: 12px;
+}
+.degree button:active{
+    transform: translateY(0px);
+    box-shadow: 0px 0px 0px 0px grey;
+}
+
+
+
+
+
+
+/* pics section css */
+
+.campus{
+    text-align: center;margin: 25px;
+    margin-top: 100px;
+}
+.campus span{
+    font-size: 40px;
+    font-weight: bold;
+}
+.pics{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 25px;
+}
+.pics .pic{
+    width: 600px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.pic1{
+    background-image: url(campus/changbok-ko-F8t2VGnI47I-unsplash.jpg);
+}
+.pic2{
+    background-image: url(campus/wengang-zhai-9svTyw-HJGc-unsplash.jpg);
+}
+.pic3{
+    background-image: url(campus/Lehman_College_Campus.jpg);
+}
+.pic4{
+    background-image: url(campus/10_05_2004_yrk_environs_85_CMYK.jpg);
+}
+
+
+.pic{
+    transition: all 0.25s ease-in-out;
+    opacity: 0.9;
+}
+.pic:hover{
+    border-radius: 5px;
+    opacity: 1;
+    box-shadow: -1px 2px 10px 1px grey;
+    transform: translateY(-5px);
+}
+
+
+.status{
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(200deg,#7949ffdd,#7949ffff);
+    margin: 100px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.left-status p{
+    font-size: 30px;
+    color: white;
+    letter-spacing: 0.2mm;
+    margin: 12px 0px;
+}
+.left-status p:nth-child(1){
+    margin-top: 0;
+}
+.left-status p:nth-child(2){
+    margin-bottom: 10px;
+}
+.left-status span{
+    font-style: italic;
+    color: antiquewhite;
+}
+.right-status {
+    position: absolute;
+    right: 50px;
+    top: -10px;
+}
+.right-status-img{
+    background-image: url(campus/info\ status.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 250px;
+}
+
+
+
+
+
+/* Facilities CSS section */
+.facilities{
+    text-align: center;
+    margin: 25px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+.facilities span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.facility{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;  
+    text-align: center; 
+}
+.img1{
+    background-image: url(Facility/cafe.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin: auto;
+    transition: all 0.25s ease;
+    opacity:0.9;
+}
+.img2{
+    background-image: url(Facility/class.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 480px;
+    border-radius: 10px;
+    margin: auto;
+    transition: all 0.25s ease;
+    opacity:0.9;
+}
+.img3{
+    background-image: url(Facility/library.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin: auto;
+    transition: all 0.25s ease;
+    opacity:0.95;
+}
+.img1:hover{
+    border-radius: 5px;
+    opacity: 1;
+    box-shadow: -1px 2px 10px 1px grey;
+    transform: translateY(-5px);
+    border-radius: 5px;
+}
+.img2:hover{
+    border-radius: 5px;
+    opacity: 1;
+    box-shadow: -1px 2px 10px 1px grey;
+    transform: translateY(-5px);
+    border-radius: 5px;
+}
+.img3:hover{
+    border-radius: 5px;
+    opacity: 1;
+    box-shadow: -1px 2px 10px 1px grey;
+    transform: translateY(-5px);
+    border-radius: 5px;
+}
+.facility button{
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: none;
+    font-size: 1.01rem;
+    letter-spacing: 0.1mm;
+    color: antiquewhite;
+    background-color: #7949ffff;
+    transition: all 0.3s ease;
+}
+.facility button:hover{ 
+    background-color: #7949ffff;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0px 3px 0px 0px grey;
+    border-radius: 12px;
+}
+.facility button:active{
+    transform: translateY(0px);
+    box-shadow: 0px 0px 0px 0px grey;
+}
+
+
+.facility1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+.facility2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+.facility3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.facility1-content{
+    padding: 5px;
+    padding-bottom: 25px;
+    margin-top: 50px;
+    margin: auto;
+    width: 300px;
+}
+.facility2-content{
+    padding: 5px;
+    padding-bottom: 25px;
+    margin-top: 50px;
+    margin: auto;
+    width: 500px;
+}
+.facility3-content{
+    padding: 5px;
+    padding-bottom: 25px;
+    margin-top: 50px;
+    margin: auto;
+    width: 300px;
+}
+   
+
+
+
+
+
+/* Feedback section css here  */
+.feedback{
+    text-align: center;
+    margin: 25px;
+    margin-top: 80px;
+}
+.feedback span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.feeds{
+    display: flex;
+    justify-content: space-evenly;
+}
+.feeds div{
+    width: 40%;
+    border-radius: 8px;
+    padding: 25px;
+    background-color: #7949ffff;
+    color: antiquewhite
+}
+.feeds span{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+/* Contact Us CSS section  */
+
+.contactus{
+    background-color: rgba(0, 0, 0, 0.9);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 20px 50px;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.contactus p{
+    padding: 25px;
+    font-size: 25px;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+}
+.contactus button{
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: none;
+    font-size: 1.01rem;
+    letter-spacing: 0.1mm;
+    color: antiquewhite;
+    background-color: #7949ffff;
+    transition: all 0.3s ease;
+}
+.contactus button:hover{ 
+    background-color: #7949ffff;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0px 3px 0px 0px grey;
+    border-radius: 12px;
+}
+.contactus button:active{
+    transform: translateY(0px);
+    box-shadow: 0px 0px 0px 0px grey;
+}
+
+.contact-icons{
+    padding: 10px;
+}
+.contact-icons i{
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.copyright{
+    font-size: 0.8rem;
+    letter-spacing: 0.1mm;
+    padding: 2px;
+    text-align: start;
+}
+
+

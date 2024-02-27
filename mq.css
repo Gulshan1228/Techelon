@@ -1,0 +1,183 @@
+
+/* responsiveness of the website
+we will use Media Queries : - */
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 576px){
+    .university {
+        margin-left: 40px;
+        margin-top: -15px;
+        font-size: 18px;
+    }
+    .name {
+        font-size: 20px;
+        margin-top: 5px;
+        font-family: cursive;
+        margin-left: 20px;
+    }
+    .navbar{
+        padding-top: 15px;
+        padding-right: 10px;
+    }
+    .rightnav {
+        font-size: 15px;
+        margin-right: 5px;
+    }
+    .navbar li {
+        list-style: none;
+        float: left;
+        padding-left: 6px;
+    }
+    .home {
+        background-image: url(bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 750px;
+    }
+    .content h1 {
+        font-family: 'Franklin Gothic Medium';
+        font-size: 25px;
+    }
+    .content span {
+        font-size: 35px;
+        color: skyblue;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .content a {
+        padding: 5px 10px;
+        border: 1px solid white;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    .ourcourses {
+        text-align: center;
+        padding-top: 75px;
+    }
+    .degree {
+        margin: 20px;
+        width: 80%;
+        text-align: center;
+        background-color: rgba(128, 0, 128, 0.5);
+        border-radius: 10px;
+    }
+    .degree h2{
+        font-size: 20px;
+    }
+    .courses p {
+        padding: 2px;
+    }
+    .courses {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 25px;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .pics {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 25px;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .pics img {
+        border-radius: 8px;
+        width: 290px;
+        height: 250px;
+        padding-top: 25px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    .morepics {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 25px;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .morepics img {
+        border-radius: 8px;
+        width: 290px;
+        height: 250px;
+        padding-top: 25px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    .facilitiescontent {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .feeds {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .feeds div {
+        border-radius: 8px;
+        padding: 10px;
+        background-color: rgba(255, 0, 255, 0.25);
+        margin-top: 25px;
+        margin: auto;
+        margin-top: 25px;
+        width: 300px;
+    }
+    .video {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .contactus {
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 8px;
+        text-align: center;
+        color: white;
+        width: auto;
+    }
+    .contactus p {
+        padding: 25px;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    .contactus button {
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    }
+    .video {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+}
+
+/* Extra small */
+@media(max-width: 431px){
+    .name {
+        font-size: 18px;
+        margin-top: 5px;
+        font-family: cursive;
+        margin-left: 15px;
+    }
+    .university {
+        margin-left: 30px;
+        margin-top: -15px;
+        font-size: 16px;
+    }
+    .rightnav {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    .navbar li {
+        /* list-style: none; */
+        padding-left: 6px;
+    }
+}
