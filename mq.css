@@ -3,11 +3,98 @@
 we will use Media Queries : - */
 
 
+@media (max-width: 1155px){
+    .courses {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 50px;
+    }
+    .pics .pic {
+        width: 500px;
+    }
+    .img2 {
+        width: 400px;
+    }
+    .img1 {
+        width: 275px;
+    } .img3 {
+        width: 275px;
+    }
+    .facility2-content {
+        width: 400px;
+    }
+    .facility1-content {
+        width: 280px;
+    }
+    .facility3-content {
+        width: 280px;
+    }
+
+}
+@media (max-width: 1155px){
+    .pics .pic {
+        width: 400px;
+    }
+    .img2 {
+        width: 350px;
+    }
+    .img1 {
+        width: 225px;
+    } .img3 {
+        width: 225px;
+    }
+    .facility2-content {
+        width: 370px;
+    }
+    .facility1-content {
+        width: 230px;
+    }
+    .facility3-content {
+        width: 230px;
+    }
+}
+
+@media (max-width: 888px){
+    .pics .pic {
+        width: 375px;
+    }
+    .img2 {
+        width: 325px;
+    }
+    .img1 {
+        width: 200px;
+    } .img3 {
+        width: 200px;
+    }
+    .facility2-content {
+        width: 330px;
+    }
+    .facility1-content {
+        width: 210px;
+    }
+    .facility3-content {
+        width: 210px;
+    }
+    .left-status p {
+        font-size: 20px;
+        letter-spacing: 0.1mm;
+    }    
+    .right-status-img {
+        height: 220px;
+        width: 210px;
+    }
+}
+
+
+
+
+
+
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 576px){
     .university {
-        margin-left: 40px;
-        margin-top: -15px;
+        margin-left: 25px;
+        margin-top: -5px;
         font-size: 18px;
     }
     .name {
@@ -17,8 +104,8 @@ we will use Media Queries : - */
         margin-left: 20px;
     }
     .navbar{
-        padding-top: 15px;
-        padding-right: 10px;
+        padding: 10px 25px 0px 0px;
+
     }
     .rightnav {
         font-size: 15px;
@@ -60,8 +147,8 @@ we will use Media Queries : - */
         margin: 20px;
         width: 80%;
         text-align: center;
-        background-color: rgba(128, 0, 128, 0.5);
         border-radius: 10px;
+        background-color: #7949ffff;
     }
     .degree h2{
         font-size: 20px;
@@ -76,12 +163,17 @@ we will use Media Queries : - */
         align-content: flex-start;
         flex-wrap: wrap;
     }
+    .pics .pic {
+        width: 80%;
+        padding: 20px;
+        margin: auto;
+    }
     .pics {
         display: flex;
-        justify-content: space-evenly;
-        margin: 25px;
-        flex-wrap: wrap;
-        align-content: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5px;
+        align-content: center;
     }
     .pics img {
         border-radius: 8px;
@@ -91,6 +183,98 @@ we will use Media Queries : - */
         border-radius: 10px;
         object-fit: cover;
     }
+    .left-status p {
+        font-size: 16px;
+        letter-spacing: 0.1mm;
+    }
+    .status {
+        padding: 10px 20px;
+        background: linear-gradient(200deg, #7949ffdd, #7949ffff);
+        margin: 100px 0px;
+    }
+    .left-status span {
+        font-style: italic;
+        font-size: 14px;
+        color: antiquewhite;
+    }
+    .right-status-img {
+        height: 160px;
+        width: 150px;
+    }
+    .right-status {
+        position: absolute;
+        right: 25px;
+        top: -10px;
+    }
+    .facility {
+        padding: 25px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-direction: column;
+    }
+    .facility1 {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .facility2 {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .facility3 {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .img1 {
+        width: 200px;
+        margin: 0;
+    }
+    .img2 {
+        width: 200px;
+        margin: 0;
+    }
+    .img3 {
+        width: 200px;
+        margin: 0;
+    }
+    .facility1-content {
+        margin: 0;
+        margin-top: -25px;
+        text-align: left;
+    }
+    .facility2-content {
+        margin: 0;
+        margin-top: -25px;
+        text-align: left;
+        width: 40%;
+    }
+    .facility3-content {
+        margin: 0;
+        margin-top: -25px;
+        text-align: left;
+    }
+    
+
+    .feeds div {
+        background-color: #7949ff;
+        margin: auto;
+        margin-top: 25px;
+        width: 65%;
+    }
+
+
+
+
+
     .morepics {
         display: flex;
         justify-content: space-evenly;
@@ -116,20 +300,6 @@ we will use Media Queries : - */
         flex-wrap: wrap;
         flex-direction: column;
     }
-    .feeds div {
-        border-radius: 8px;
-        padding: 10px;
-        background-color: rgba(255, 0, 255, 0.25);
-        margin-top: 25px;
-        margin: auto;
-        margin-top: 25px;
-        width: 300px;
-    }
-    .video {
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-    }
     .contactus {
         background-color: rgba(0, 0, 0, 0.9);
         border-radius: 8px;
@@ -150,34 +320,122 @@ we will use Media Queries : - */
     padding: 5px 10px;
     background-color: rgba(0, 0, 0, 0.3);
     }
-    .video {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        align-items: center;
-        width: auto;
-    }
 }
 
-/* Extra small */
+
+
+
+/* Real Phones  */
 @media(max-width: 431px){
     .name {
-        font-size: 18px;
+        font-size: 17px;
         margin-top: 5px;
         font-family: cursive;
-        margin-left: 15px;
+        margin-left: 10px;
     }
     .university {
-        margin-left: 30px;
-        margin-top: -15px;
-        font-size: 16px;
+        margin-left: 20px;
+        margin-top: 0px;
+        font-size: 15px;
     }
     .rightnav {
         font-size: 12px;
         margin-right: 5px;
     }
     .navbar li {
-        /* list-style: none; */
         padding-left: 6px;
+    }
+    #menu-icon{
+        display: block;
+        margin-top: 20px;
+        font-size: 1.2rem;
+    }
+    
+    .tabs {
+        position: absolute;
+        left: -1000px;
+        top: -105%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 25px;
+        text-align: center;
+        border-bottom-right-radius: 20px;
+        background: linear-gradient(178deg, rgb(88, 27, 255),rgb(91, 31, 255),rgb(93, 34, 253),rgba(88, 27, 255, 0.9));
+        transition: all 0.5s ease;
+        width: 100%;
+        box-sizing: border-box;
+        height: 380px;
+    }
+    .navbar li {
+        padding-left: 0px;
+        padding: 20px;
+        font-size: 16px;
+    }
+    #menu-icon{
+        font-size: 1rem;
+    }
+    #menu:checked ~ .tabs{
+        top: 55px;
+        left: 0px;
+    }
+
+
+    .left-status p:nth-child(2) {
+        margin-bottom: 0px;
+    }
+    .right-status-img {
+        height: 150px;
+        width: 130px;
+    }
+    .left-status p {
+        font-size: 15px;
+        letter-spacing: 0.1mm;
+    }
+
+    .right-status {
+        position: absolute;
+        right: 10px;
+        top: 35px;
+    }
+    .facility1 , .facility2 , .facility3 {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .img1 ,.img2 , .img3 {
+        width: 80%;
+        margin: auto;
+        height: 200px;
+    }
+    .facility1-content ,.facility2-content , .facility3-content{
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        width: 85%;
+    }
+
+}
+
+
+@media (max-width:391px){
+    .contact-icons i {
+        padding: 8px;
+        font-size: 1rem;
+    }.contactus p {
+        padding: 0px;
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+    .copyright {
+        font-size: 0.7rem;
+        letter-spacing: 0;
+        padding: 2px;
+        text-align: start;
+    }
+    .leftnav{
+        padding-left: 5px;
     }
 }
