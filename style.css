@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
     font-family: serif;
     transition: all 0.5s ease;
-    background-color: whitesmoke;
+    background-color: white;
 }
 .home{
     background-image: url(bg.jpg);
@@ -14,7 +14,7 @@ body{
 }
 .navbar a{
     text-decoration: none;
-    color: antiquewhite;
+    color: white;
 }
 .name{
     font-family: cursive;
@@ -89,13 +89,14 @@ body{
     color: white;
 }
 .morebtn{
-    margin: 0 auto;
+    margin: auto;
+    margin-top: 16px;
     width: 120px;
     transition: all 0.5s ease;
     padding: 5px;
     border-radius: 10px;
     border: none;
-    background-color: whitesmoke;
+    background-color: white;
     transition: all 0.2s ease-in;
     letter-spacing: 0.2mm;
 }
